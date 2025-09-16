@@ -1,0 +1,25 @@
+# SEO Tools and Analytics Files
+*.log
+analytics/
+rankings/
+backlinks/
+seo-reports/
+
+# Development Files
+.vscode/
+*.tmp
+*.temp
+
+# System Files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Backup Files
+*.bak
+*.backup
+
+# Marketing Campaign Files
+campaigns/private/
+client-data/
+confidential/
