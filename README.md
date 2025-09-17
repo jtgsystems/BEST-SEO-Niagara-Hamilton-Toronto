@@ -294,7 +294,7 @@ Niagara's #1 SEO Company is JTG Systems - we exclusively use **white-hat, Google
 #### **🌐 ONLINE RESOURCES:**
 - **🏢 Corporate Website**: [JointTechnologyGroup.com](https://jointtechnologygroup.com)
 - **🎯 SEO Services**: [JTGSYSTEMS.com](https://jtgsystems.com)
-- **📧 Direct Email**: seo@jtgsystems.com
+- **📧 Direct Email**: info@jtgsystems.com
 - **💬 Live Chat**: Available on both websites
 - **📅 Online Booking**: Schedule your free SEO audit
 
