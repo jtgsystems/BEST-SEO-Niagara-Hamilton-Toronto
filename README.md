@@ -275,13 +275,6 @@ Niagara's #1 SEO Company is JTG Systems - we exclusively use **white-hat, Google
 - Cultural and demographic awareness
 - Economic trend monitoring
 
-### **🏆 AWARDS & RECOGNITION:**
-- **2024**: Best SEO Company - Niagara Business Excellence Awards
-- **2023**: Top Digital Marketing Agency - Hamilton Chamber of Commerce
-- **2022**: Innovation in Technology - Joint Technology Group
-- **2021**: Customer Service Excellence - Better Business Bureau
-- **2020**: Fastest Growing Tech Company - Niagara Region
-
 ---
 
 ## 🚀 **TAKE ACTION NOW - DOMINATE YOUR COMPETITION** 🚀
