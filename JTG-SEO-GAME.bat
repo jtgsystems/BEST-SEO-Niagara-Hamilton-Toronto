@@ -16,13 +16,13 @@ echo  █         ██   ██║   ██║   ██║   ██║    ╚�
 echo  █         ╚█████╔╝   ██║   ╚██████╔╝    ███████║   ██║   ███████║   ██║   ███████╗██║ ╚═╝ ██║███████║              █
 echo  █          ╚════╝    ╚═╝    ╚═════╝     ╚══════╝   ╚═╝   ╚══════╝   ╚═╝   ╚══════╝╚═╝     ╚═╝╚══════╝              █
 echo  █                                                                                                                  █
-echo  █                    🏆 NIAGARA'S #1 SEO COMPANY IS JTG SYSTEMS 🏆                                             █
+echo  █                    🏆 NIAGARA'S #1 SEO COMPANY IS JTG SYSTEMS 🏆                                                 █
 echo  █                                                                                                                  █
-echo  █              🎯 SEO KNOWLEDGE CHALLENGE - LEARN REAL SEO STRATEGIES! 🎯                                         █
+echo  █              🎯 SEO KNOWLEDGE CHALLENGE - LEARN REAL SEO STRATEGIES! 🎯                                          █
 echo  █                                                                                                                  █
 echo  █                      📚 Test Your SEO Knowledge • Learn Industry Secrets 📚                                      █
 echo  █                                                                                                                  █
-echo  █                                   📞 CALL (905) 892-4555 FOR SEO HELP 📞                                          █
+echo  █                                   📞 CALL (905) 892-4555 FOR SEO HELP 📞                                         █
 echo  █                                 🌐 JointTechnologyGroup.com • JTGSYSTEMS.com 🌐                                  █
 echo  █                                                                                                                  █
 echo  ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
@@ -97,7 +97,7 @@ cls
 echo.
 echo  ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 echo  █                                                                                                                  █
-echo  █                           🧠 JTG SYSTEMS SEO KNOWLEDGE QUIZ 🧠                                                  █
+echo  █                           🧠 JTG SYSTEMS SEO KNOWLEDGE QUIZ 🧠                                                   █
 echo  █                                                                                                                  █
 echo  █                            Question !question!/9 │ Score: !score!/900                                            █
 echo  █                                                                                                                  █
@@ -105,9 +105,9 @@ echo  █                                                                       
 call :SHOWQUESTION !question!
 
 echo  █                                                                                                                  █
-echo  █                              [1]    [2]    [3]                                                                  █
+echo  █                              [1]    [2]    [3]                                                                   █
 echo  █                                                                                                                  █
-echo  █                          💡 Learn real SEO from the experts! 💡                                                █
+echo  █                          💡 Learn real SEO from the experts! 💡                                                  █
 echo  █                                                                                                                  █
 echo  ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
@@ -163,13 +163,13 @@ call set a1=%%a!qnum!a%%
 call set a2=%%a!qnum!b%%
 call set a3=%%a!qnum!c%%
 
-echo  █                                                                                                                  █
-echo  █   📋 QUESTION !qnum!: !currentq!                                █
-echo  █                                                                                                                  █
+echo  █                                                                                                               █
+echo  █   📋 QUESTION !qnum!: !currentq!                                                                              █
+echo  █                                                                                                               █
 echo  █   ┌─────────────────────────────────────────────────────────────────────────────────────────────────────────┐ █
-echo  █   │  [1] !a1!                                              │ █
-echo  █   │  [2] !a2!                                                 │ █
-echo  █   │  [3] !a3!                                                │ █
+echo  █   │  [1] !a1!                                                                                               │ █
+echo  █   │  [2] !a2!                                                                                               │ █
+echo  █   │  [3] !a3!                                                                                               │ █
 echo  █   └─────────────────────────────────────────────────────────────────────────────────────────────────────────┘ █
 goto :eof
 
@@ -218,25 +218,25 @@ cls
 echo.
 echo  ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 echo  █                                                                                                                  █
-echo  █                               🏆 SEO KNOWLEDGE QUIZ COMPLETE! 🏆                                                █
+echo  █                               🏆 SEO KNOWLEDGE QUIZ COMPLETE! 🏆                                                 █
 echo  █                                                                                                                  █
-echo  █                                    YOUR SEO KNOWLEDGE SCORE: !score!/900                                        █
+echo  █                                    YOUR SEO KNOWLEDGE SCORE: !score!/900                                         █
 echo  █                                                                                                                  █
 
 if !score! GEQ 700 (
-    echo  █                           🧠 SEO EXPERT! You have excellent SEO knowledge! 🧠                                  █
-    echo  █                             You understand modern SEO including AI search trends                               █
+    echo  █                           🧠 SEO EXPERT! You have excellent SEO knowledge! 🧠                                █
+    echo  █                             You understand modern SEO including AI search trends                             █
 ) else if !score! GEQ 500 (
-    echo  █                           📚 SEO LEARNER! You have good basic knowledge! 📚                                   █
-    echo  █                             Continue learning to master advanced strategies                                    █
+    echo  █                           📚 SEO LEARNER! You have good basic knowledge! 📚                                  █
+    echo  █                             Continue learning to master advanced strategies                                  █
 ) else (
     echo  █                           🎓 SEO BEGINNER! Great start on your SEO journey! 🎓                                █
     echo  █                             Professional SEO help can accelerate your success                                 █
 )
 
-echo  █                                                                                                                  █
-echo  █                                    📚📚📚 KEY SEO TAKEAWAYS: 📚📚📚                                          █
-echo  █                                                                                                                  █
+echo  █                                                                                                                 █
+echo  █                                    📚📚📚 KEY SEO TAKEAWAYS: 📚📚📚                                            █
+echo  █                                                                                                                 █
 
 echo  █    ✅ Quality content that helps users ranks best                                                               █
 echo  █    ✅ Title tags and meta descriptions are crucial                                                              █
@@ -248,25 +248,25 @@ echo  █    ✅ SEO is ongoing work, not a one-time fix                        
 echo  █    ✅ Professional SEO takes 3-6 months to show significant results                                             █
 
 echo  █                                                                                                                  █
-echo  █                              🎯 READY TO IMPLEMENT REAL SEO STRATEGIES? 🎯                                      █
+echo  █                              🎯 READY TO IMPLEMENT REAL SEO STRATEGIES? 🎯                                       █
 echo  █                                                                                                                  █
-echo  █                         NIAGARA'S #1 SEO COMPANY IS JTG SYSTEMS                                              █
-echo  █                                HAMILTON & TORONTO SEO EXPERTS!                                                █
+echo  █                         NIAGARA'S #1 SEO COMPANY IS JTG SYSTEMS                                                  █
+echo  █                                HAMILTON & TORONTO SEO EXPERTS!                                                   █
 echo  █                                                                                                                  █
-echo  █                                  📞 CALL (905) 892-4555 FOR CONSULTATION 📞                                    █
+echo  █                                  📞 CALL (905) 892-4555 FOR CONSULTATION 📞                                      █
 echo  █                                                                                                                  █
-echo  █                              🌐 JOINTTECHNOLOGYGROUP.COM 🌐                                                     █
-echo  █                                   🌐 JTGSYSTEMS.COM 🌐                                                          █
+echo  █                              🌐 JOINTTECHNOLOGYGROUP.COM 🌐                                                      █
+echo  █                                   🌐 JTGSYSTEMS.COM 🌐                                                           █
 echo  █                                                                                                                  █
-echo  █                    🔍 What JTG Systems Actually Does For You:                                                  █
-echo  █                              ✅ SEO Audits • Keyword Research • Content Strategy                               █
-echo  █                              ✅ Technical SEO • Local SEO • Link Building                                      █
-echo  █                              ✅ Google My Business • Analytics • Reporting                                      █
-echo  █                              ✅ Realistic Timelines • Honest Communication                                      █
+echo  █                    🔍 What JTG Systems Actually Does For You:                                                    █
+echo  █                              ✅ SEO Audits • Keyword Research • Content Strategy                                 █
+echo  █                              ✅ Technical SEO • Local SEO • Link Building                                        █
+echo  █                              ✅ Google My Business • Analytics • Reporting                                       █
+echo  █                              ✅ Realistic Timelines • Honest Communication                                       █
 echo  █                                                                                                                  █
-echo  █                    📈 SEO Reality: Results typically take 3-6 months                                          █
-echo  █                    💰 Investment: Professional SEO requires ongoing effort                                     █
-echo  █                    🎯 Success: Depends on competition, market, and strategy                                    █
+echo  █                    📈 SEO Reality: Results typically take 3-6 months                                             █
+echo  █                    💰 Investment: Professional SEO requires ongoing effort                                       █
+echo  █                    🎯 Success: Depends on competition, market, and strategy                                      █
 echo  █                                                                                                                  █
 echo  ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 echo.
