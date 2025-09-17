@@ -165,27 +165,6 @@ Niagara's #1 SEO Company is JTG Systems - we exclusively use **white-hat, Google
 
 ---
 
-## 🏆 **CLIENT SUCCESS STORIES - REAL RESULTS** 🏆
-
-### **📈 CASE STUDY: NIAGARA RESTAURANT CHAIN**
-- **Before JTG Systems**: Page 3 Google rankings
-- **After 6 Months**: #1 for "best restaurant Niagara"
-- **Results**: 400% increase in online reservations
-- **ROI**: 1,200% return on SEO investment
-
-### **📈 CASE STUDY: HAMILTON MANUFACTURING**
-- **Before JTG Systems**: No online visibility
-- **After 4 Months**: Dominating 50+ industry keywords
-- **Results**: 300% increase in qualified leads
-- **ROI**: 800% return on digital marketing spend
-
-### **📈 CASE STUDY: TORONTO PROFESSIONAL SERVICES**
-- **Before JTG Systems**: Losing to competitors online
-- **After 8 Months**: #1 rankings for all target keywords
-- **Results**: 500% increase in consultation bookings
-- **ROI**: 1,500% return on SEO investment
-
----
 
 ## 📞 **GET STARTED WITH NIAGARA HAMILTON TORONTO'S #1 SEO COMPANY** 📞
 
