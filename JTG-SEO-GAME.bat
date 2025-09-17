@@ -84,8 +84,14 @@ set "a8b=More ads"
 set "a8c=Longer content"
 set "correct8=1"
 
+set "q9=How does Google's AI Search (SGE) affect SEO in 2025?"
+set "a9a=Content quality matters more"
+set "a9b=Only keywords matter now"
+set "a9c=SEO is no longer needed"
+set "correct9=1"
+
 :QUESTIONLOOP
-if !question! GTR 8 goto ENDGAME
+if !question! GTR 9 goto ENDGAME
 
 cls
 echo.
@@ -93,7 +99,7 @@ echo  ████████████████████████�
 echo  █                                                                                                                  █
 echo  █                           🧠 JTG SYSTEMS SEO KNOWLEDGE QUIZ 🧠                                                  █
 echo  █                                                                                                                  █
-echo  █                            Question !question!/8 │ Score: !score!/800                                            █
+echo  █                            Question !question!/9 │ Score: !score!/900                                            █
 echo  █                                                                                                                  █
 
 call :SHOWQUESTION !question!
@@ -106,10 +112,26 @@ echo  █                                                                       
 echo  ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 choice /c 123 /n /t 15 >nul
+set answer=
 if errorlevel 3 set answer=3
 if errorlevel 2 set answer=2
 if errorlevel 1 set answer=1
-if not defined answer set answer=timeout
+
+rem Enhanced error handling and validation
+if not defined answer (
+    set answer=timeout
+    echo.
+    echo                                    ⚠️ Input timeout - treating as incorrect answer
+) else (
+    rem Validate answer is within expected range
+    if !answer! LSS 1 set answer=invalid
+    if !answer! GTR 3 set answer=invalid
+    if "!answer!"=="invalid" (
+        echo.
+        echo                                    ❌ Invalid input detected - please use 1, 2, or 3
+        set answer=timeout
+    )
+)
 
 call set correct=%%correct!question!%%
 
@@ -141,23 +163,54 @@ call set a1=%%a!qnum!a%%
 call set a2=%%a!qnum!b%%
 call set a3=%%a!qnum!c%%
 
-echo  █   Q!qnum!: !currentq!                                      █
 echo  █                                                                                                                  █
-echo  █   [1] !a1!                                            █
-echo  █   [2] !a2!                                               █
-echo  █   [3] !a3!                                              █
+echo  █   📋 QUESTION !qnum!: !currentq!                                █
+echo  █                                                                                                                  █
+echo  █   ┌─────────────────────────────────────────────────────────────────────────────────────────────────────────┐ █
+echo  █   │  [1] !a1!                                              │ █
+echo  █   │  [2] !a2!                                                 │ █
+echo  █   │  [3] !a3!                                                │ █
+echo  █   └─────────────────────────────────────────────────────────────────────────────────────────────────────────┘ █
 goto :eof
 
 :SHOWEXPLANATION
 set qnum=%1
-if !qnum! EQU 1 echo                              SEO = Search Engine Optimization - improving website visibility
-if !qnum! EQU 2 echo                              Title tags tell search engines what your page is about
-if !qnum! EQU 3 echo                              1-3%% keyword density looks natural, higher % looks spammy
-if !qnum! EQU 4 echo                              Google My Business is crucial for local search visibility
-if !qnum! EQU 5 echo                              150-160 characters is optimal for meta descriptions
-if !qnum! EQU 6 echo                              Quality content that helps users ranks highest
-if !qnum! EQU 7 echo                              Relevant backlinks from authoritative sites boost rankings
-if !qnum! EQU 8 echo                              Core Web Vitals measure page loading and user experience
+if !qnum! EQU 1 (
+    echo                              ✅ SEO = Search Engine Optimization - the practice of improving
+    echo                                 website visibility in search engine results pages (SERPs)
+)
+if !qnum! EQU 2 (
+    echo                              ✅ Title tags are the clickable headlines in search results.
+    echo                                 They should be 50-60 characters and include target keywords.
+)
+if !qnum! EQU 3 (
+    echo                              ✅ 1-3%% keyword density appears natural to readers and Google.
+    echo                                 Higher percentages trigger spam filters and hurt rankings.
+)
+if !qnum! EQU 4 (
+    echo                              ✅ Google My Business controls your local search appearance,
+    echo                                 reviews, and map listings - critical for local businesses.
+)
+if !qnum! EQU 5 (
+    echo                              ✅ Meta descriptions should be 150-160 characters to avoid
+    echo                                 truncation in search results and encourage clicks.
+)
+if !qnum! EQU 6 (
+    echo                              ✅ Google's algorithm prioritizes helpful, relevant content that
+    echo                                 satisfies user intent over keyword manipulation.
+)
+if !qnum! EQU 7 (
+    echo                              ✅ Backlinks from relevant, high-authority sites pass more
+    echo                                 ranking power than random or low-quality links.
+)
+if !qnum! EQU 8 (
+    echo                              ✅ Core Web Vitals measure loading speed, interactivity, and
+    echo                                 visual stability - key factors in Google's Page Experience.
+)
+if !qnum! EQU 9 (
+    echo                              ✅ Google's AI Search prioritizes high-quality, helpful content
+    echo                                 that directly answers user questions with authority and depth.
+)
 goto :eof
 
 :ENDGAME
@@ -167,13 +220,13 @@ echo  ████████████████████████�
 echo  █                                                                                                                  █
 echo  █                               🏆 SEO KNOWLEDGE QUIZ COMPLETE! 🏆                                                █
 echo  █                                                                                                                  █
-echo  █                                    YOUR SEO KNOWLEDGE SCORE: !score!/800                                        █
+echo  █                                    YOUR SEO KNOWLEDGE SCORE: !score!/900                                        █
 echo  █                                                                                                                  █
 
 if !score! GEQ 700 (
     echo  █                           🧠 SEO EXPERT! You have excellent SEO knowledge! 🧠                                  █
-    echo  █                             You understand the fundamentals of modern SEO                                      █
-) else if !score! GEQ 400 (
+    echo  █                             You understand modern SEO including AI search trends                               █
+) else if !score! GEQ 500 (
     echo  █                           📚 SEO LEARNER! You have good basic knowledge! 📚                                   █
     echo  █                             Continue learning to master advanced strategies                                    █
 ) else (
