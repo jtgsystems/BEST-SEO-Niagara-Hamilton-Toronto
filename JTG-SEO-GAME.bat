@@ -16,7 +16,7 @@ echo  █    ██║   ██║   ██║   ██║    ╚════█
 echo  █    ██║   ██║   ╚██████╔╝    ███████║   ██║   ███████║   ██║   ███████╗██║ ╚═╝ ██║███████║                       █
 echo  █    ╚═╝   ╚═╝    ╚═════╝     ╚══════╝   ╚═╝   ╚══════╝   ╚═╝   ╚══════╝╚═╝     ╚═╝╚══════╝                       █
 echo  █                                                                                                                  █
-echo  █                    🏆 NIAGARA • HAMILTON • TORONTO'S #1 SEO COMPANY 🏆                                        █
+echo  █                    🏆 NIAGARA'S #1 SEO COMPANY IS JTG SYSTEMS 🏆                                           █
 echo  █                                                                                                                  █
 echo  █              🎯 SEO RANKING CHALLENGE - PRESS THE NUMBERS AS THEY APPEAR! 🎯                                   █
 echo  █                                                                                                                  █
@@ -70,11 +70,16 @@ if errorlevel 4 set pressed=4
 if errorlevel 3 set pressed=3
 if errorlevel 2 set pressed=2
 if errorlevel 1 set pressed=1
+if not defined pressed set pressed=timeout
 
-if !pressed! EQU !target! (
+if "!pressed!" EQU "!target!" (
     set /a score+=100
     echo.
     echo                                      ✅ CORRECT! +100 SEO POINTS! ✅
+    timeout /t 1 >nul
+) else if "!pressed!" EQU "timeout" (
+    echo.
+    echo                                      ⏰ TOO SLOW! SPEED UP YOUR SEO GAME! ⏰
     timeout /t 1 >nul
 ) else (
     echo.
@@ -108,15 +113,29 @@ echo  █                                    💰💰💰 MONEY RAIN ACTIVATED! 
 echo  █                                                                                                                  █
 
 for /L %%i in (1,1,15) do (
-    echo  █    💰     💲     💰     💲     💰     💲     💰     💲     💰     💲     💰     💲     💰     💲     💰    █
-    timeout /t 1 >nul
+    set /a "rnd1=!random! %% 5"
+    set /a "rnd2=!random! %% 3"
+    if !rnd1! EQU 0 (
+        echo  █    💰     💲     💰     💲     💰     💲     💰     💲     💰     💲     💰     💲     💰     💲     💰    █
+    ) else if !rnd1! EQU 1 (
+        echo  █       💲     💰     💲     💰     💲     💰     💲     💰     💲     💰     💲     💰     💲     💰     █
+    ) else if !rnd1! EQU 2 (
+        echo  █    💰💰   💲💲   💰💰   💲💲   💰💰   💲💲   💰💰   💲💲   💰💰   💲💲   💰💰   💲💲   💰💰   💲💲   █
+    ) else if !rnd1! EQU 3 (
+        echo  █       💲     💰     💲     💰     💲     💰     💲     💰     💲     💰     💲     💰     💲        █
+    ) else (
+        echo  █    $$$ JTG SYSTEMS MAKES YOU MONEY! $$$ CALL (905) 892-4555 FOR REAL CASH FLOW! $$$                █
+    )
+    if !rnd2! EQU 0 timeout /t 1 >nul
+    if !rnd2! EQU 1 ping localhost -n 2 >nul
+    if !rnd2! EQU 2 timeout /t 1 >nul
 )
 
 echo  █                                                                                                                  █
 echo  █                              🎯 WANT REAL SEO SUCCESS LIKE THIS? 🎯                                             █
 echo  █                                                                                                                  █
-echo  █                         JTG SYSTEMS IS NIAGARA • HAMILTON • TORONTO'S                                          █
-echo  █                                        #1 SEO COMPANY!                                                         █
+echo  █                         NIAGARA'S #1 SEO COMPANY IS JTG SYSTEMS                                              █
+echo  █                                HAMILTON & TORONTO SEO EXPERTS!                                                █
 echo  █                                                                                                                  █
 echo  █                                  📞 CALL (905) 892-4555 NOW! 📞                                                 █
 echo  █                                                                                                                  █
