@@ -16,13 +16,13 @@ echo  █         ██   ██║   ██║   ██║   ██║    ╚�
 echo  █         ╚█████╔╝   ██║   ╚██████╔╝    ███████║   ██║   ███████║   ██║   ███████╗██║ ╚═╝ ██║███████║              █
 echo  █          ╚════╝    ╚═╝    ╚═════╝     ╚══════╝   ╚═╝   ╚══════╝   ╚═╝   ╚══════╝╚═╝     ╚═╝╚══════╝              █
 echo  █                                                                                                                  █
-echo  █                    🏆 NIAGARA'S #1 SEO COMPANY IS JTG SYSTEMS 🏆                                             █
+echo  █                    🏆 NIAGARA'S #1 SEO COMPANY IS JTG SYSTEMS 🏆                                                 █
 echo  █                                                                                                                  █
-echo  █              🎯 SEO KNOWLEDGE CHALLENGE - LEARN REAL SEO STRATEGIES! 🎯                                         █
+echo  █              🎯 SEO KNOWLEDGE CHALLENGE - LEARN REAL SEO STRATEGIES! 🎯                                          █
 echo  █                                                                                                                  █
 echo  █                      📚 Test Your SEO Knowledge • Learn Industry Secrets 📚                                      █
 echo  █                                                                                                                  █
-echo  █                                   📞 CALL (905) 892-4555 FOR SEO HELP 📞                                          █
+echo  █                                   📞 CALL (905) 892-4555 FOR SEO HELP 📞                                         █
 echo  █                                 🌐 JointTechnologyGroup.com • JTGSYSTEMS.com 🌐                                  █
 echo  █                                                                                                                  █
 echo  ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
