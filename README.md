@@ -1,3 +1,5 @@
+![Banner](banner.png)
+
 # 🚀 BEST SEO Niagara Hamilton Toronto - #1 Local SEO Services 🚀
 
 [![SEO Niagara](https://img.shields.io/badge/SEO-Niagara%20%231-success.svg)](https://jtgsystems.com)
