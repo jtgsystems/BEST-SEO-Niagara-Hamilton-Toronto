@@ -340,3 +340,7 @@ Niagara's #1 SEO Company is JTG Systems - we exclusively use **white-hat, Google
 **📞 CALL (905) 892-4555 TODAY FOR IMMEDIATE SEO DOMINATION! 📞**
 
 *🤖 This repository showcases the SEO expertise and creative marketing approaches that make JTG Systems the leader in local search optimization across Ontario's most competitive markets.*
+
+### SEO Keyword Cloud
+
+`seo` `niagara` `hamilton` `toronto` `ontario` `canada` `local` `search` `rankings` `google` `maps` `citations` `backlinks` `content` `marketing` `optimization` `analytics` `audits` `schema` `corewebvitals` `serp` `visibility` `conversions` `leads` `businesses` `ecommerce` `hospitality` `manufacturing` `tourism` `realestate` `healthcare` `professional` `agency` `strategy` `keyword` `research` `reporting` `dashboard` `competitive` `domination` `authority` `branding` `reputation` `reviews` `engagement` `outreach` `automation` `consulting` `performance` `growth`
