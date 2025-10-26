@@ -795,3 +795,9 @@ See "Next Steps and Roadmap" section above for planned improvements.
 ---
 
 *This CLAUDE.md file provides comprehensive documentation for Claude Code to understand the repository structure, purpose, and capabilities without exposing any sensitive information or credentials.*
+
+## Framework Versions
+
+- No major frameworks detected in this project
+- This may be a utility script, documentation project, or uses custom dependencies
+
